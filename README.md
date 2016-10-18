@@ -16,12 +16,12 @@ Install some nice softwares:
 * [Iterm2](https://www.iterm2.com/)
 * [Atom](https://atom.io/)
 * [Chrome](https://www.google.com/chrome/)
-* Nice Atom plugins:
+* Nice Atom plugins (TODO: use apm to install automatically):
     * vim-mode
     * minimap
     * git-plus
     * autocomplete-paths
-    * atom-ctags
+    * terminal-plus (still have some issue...)
     * file-icons
     * activity-power-mode (LOL)
 
