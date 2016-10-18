@@ -3,14 +3,25 @@
 
 ### Step 1:
 
-* Install *Command Line Developer Tools* with: **xcode-select --install**
-* Install *Oh-my-zsh* with: **sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"**
+* Install *Command Line Developer Tools* with:
+        xcode-select --install
+* Install *Oh-my-zsh* with:
+        sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 
 ### Step 2:
 Install some nice softwares:
 
-* [iterm2](https://www.iterm2.com/)
+* [Iterm2](https://www.iterm2.com/)
+* [Atom](https://atom.io/)
 * [Chrome](https://www.google.com/chrome/)
+* Nice Atom plugins:
+    * vim-mode
+    * minimap
+    * autocomplete-plus
+    * autocomplete-paths
+    * atom-ctags
+    * file-icons
+    * activity-power-mode (LOL)
 
 ### Step 3:
 Setup GIT and SSH key by the following commands:
@@ -24,4 +35,6 @@ Setup GIT and SSH key by the following commands:
 Let's just run **setup.sh**
 
 ### Step 5:
-Install *GCC* with: **brew install gcc --with-all-languages --without-multilib**
+
+* Install *GCC* with:
+        brew install gcc --with-all-languages --without-multilib
