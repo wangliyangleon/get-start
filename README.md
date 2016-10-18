@@ -19,7 +19,7 @@ Install some nice softwares:
 * Nice Atom plugins:
     * vim-mode
     * minimap
-    * autocomplete-plus
+    * git-plus
     * autocomplete-paths
     * atom-ctags
     * file-icons
