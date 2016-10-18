@@ -2,7 +2,9 @@
 ## Make my C++ (not only) development environment cooler (from scratch)
 
 ### Step 1:
-Install *Command Line Developer Tools* with: **xcode-select --install**
+
+* Install *Command Line Developer Tools* with: **xcode-select --install**
+* Install *Oh-my-zsh* with: **sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"**
 
 ### Step 2:
 Install some nice softwares:

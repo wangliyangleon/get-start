@@ -9,7 +9,6 @@ function show_info() {
 }
 
 show_step_title 'STEP 1: Install some nessesary tools'
-sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 sudo easy_install pip
 pip install powerline-status --user
