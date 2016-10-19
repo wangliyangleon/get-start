@@ -16,14 +16,6 @@ Install some nice softwares:
 * [Iterm2](https://www.iterm2.com/)
 * [Atom](https://atom.io/)
 * [Chrome](https://www.google.com/chrome/)
-* Nice Atom plugins (TODO: use apm to install automatically):
-    * vim-mode
-    * minimap
-    * git-plus
-    * autocomplete-paths
-    * terminal-plus (still have some issue...)
-    * file-icons
-    * activity-power-mode (LOL)
 
 ### Step 3:
 Setup GIT and SSH key by the following commands:
