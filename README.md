@@ -1,5 +1,5 @@
 # START ROCKING
-## Make my C++ (not only) development environment cooler (from scratch)
+## Make my Mac OS X development environment cooler (from scratch)
 
 ### Step 1:
 

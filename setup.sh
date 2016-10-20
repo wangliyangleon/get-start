@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/bash -x
 
 function show_step_title() {
     echo "\033[35m\033[01m$1\033[0m":
