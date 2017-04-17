@@ -48,7 +48,7 @@ apm install git-plus
 apm install autocomplete-paths
 apm install terminal-plus # doesn't work, don't know why :(
 apm install file-icons
-apm install activity-power-mode # LOL
+apm install activate-power-mode # LOL
 
 
 show_step_title 'STEP 5: Manual setups'
