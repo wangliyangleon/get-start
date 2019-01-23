@@ -8,11 +8,16 @@ function show_info() {
     echo "\033[32m\033[05m$1\033[0m"
 }
 
+while [[ "$#" > 0 ]]; do case $1 in
+    -a|--atom) set_atom=1; shift;;
+    *) echo "Unknown parameter passed: $1"; exit 1;;
+esac; shift; done
+
 
 show_step_title 'STEP 1: Install some nessesary tools'
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-sudo easy_install pip
-pip install powerline-status --user
+brew install python
+pip3 install powerline-status --user
 
 
 show_step_title 'STEP 2: Download fonts/colors/theme to make Iterm2 cooler'
@@ -42,13 +47,17 @@ cd -
 
 
 show_step_title 'STEP 4: Download some plugins to make Atom cooler'
-apm install vim-mode
-apm install minimap
-apm install git-plus
-apm install autocomplete-paths
-apm install terminal-plus # doesn't work, don't know why :(
-apm install file-icons
-apm install activate-power-mode # LOL
+if [[ $set_atom ]]; then
+    apm install vim-mode
+    apm install minimap
+    apm install git-plus
+    apm install autocomplete-paths
+    apm install terminal-plus # doesn't work, don't know why :(
+    apm install file-icons
+    apm install activate-power-mode # LOL
+else
+    show_info 'Skipped...'
+fi
 
 
 show_step_title 'STEP 5: Manual setups'
